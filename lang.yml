@@ -1,11 +1,14 @@
+# 适用于EcoEnchants v12.23.1 请勿倒卖，如有发现倒卖行为 会私有化这个翻译仓库
+# 作者：烧酒(3304561964) 如有更新请催更，我会在收到您的催更信息后最快速度更新出来
+# 这是汉化配置版本，适合已经安装了EcoEnchants的用户使用，内核版本请前往我的另一个仓库获取
 messages:
-  prefix: "&a&l附魔 &r&8» &r"
+  prefix: "&a&l更多附魔 &r&8» &r"
   no-permission: '&c你没有执行此操作的权限！'
   not-player: '&c此命令必须由玩家执行！'
   invalid-command: '&c未知子命令！'
   reloaded: 重新加载完成！
-  reloaded-1203: "Reloaded! &cYou may need to restart your server for some changes to take effect."
-  reloaded-121: "Reloaded! &cRelog if you added enchantments or you will get kicked. You may need to restart your server for some changes to take effect."
+  reloaded-1203: "重新加载完成！ &c您可能需要重新启动服务器才能使某些更改生效."
+  reloaded-121: "Reloaded! &c如果你添加了附魔，请重新登录，否则你会被踢出。您可能需要重新启动服务器才能使某些更改生效."
   invalid-player: '&c无效的玩家！'
   requires-player: '&c需要一个玩家！'
   enabled-descriptions: '&f你已成功启用附魔描述！'
@@ -24,5 +27,5 @@ messages:
 all: "All"
 yes: "&a是"
 no: "&c否"
-no-conflicts: "No Conflicts"
-all-conflicts: "All Other Enchantments"
+no-conflicts: "无冲突"
+all-conflicts: "所有其他附魔"

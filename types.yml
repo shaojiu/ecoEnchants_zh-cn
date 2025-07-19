@@ -1,13 +1,16 @@
-# Enchantment types are like categories.
-# They have a color that shows in lore, they have an optional limit
-# as to how many of a certain type can be on any item, et cetera.
+# 适用于EcoEnchants v12.23.1 请勿倒卖，如有发现倒卖行为 会私有化这个翻译仓库
+# 作者：烧酒(3304561964) 如有更新请催更，我会在收到您的催更信息后最快速度更新出来
+# 这是汉化配置版本，内核版本请前往另一个仓库获取
+
+# Enchantment的类型类似于分类
+# 他可以在lore上显示颜色和对某种类型的商品有一个可选的数量限制，就是每件商品能有多少个这种类型的东西。
 
 types:
-  - id: normal # The ID of the type
-    format: "&7" # The format of enchantments of this type in display
-    limit: -1 # The maximum amount of enchants of this type on an item (-1 to disable)
-    high-level-bias: 0 # The bias against getting high levels of enchants with this type. Between 0-1, 0 is no bias, 1 is only level 1.
-    no-grindstone: false # If enchants of this type should not be removable in the grindstone
+  - id: normal # 这个类型的ID
+    format: "&7" # 显示的格式
+    limit: -1 # 这个类型的附魔 在物品上的最大数量 (-1表示禁用)
+    high-level-bias: 0 # 获取该类型的高等级附魔的偏移。0到1之间，0表示无偏移，1表示1级
+    no-grindstone: false # 该类型的附魔是否在砂轮上被移除
 
   - id: curse
     format: "&c"

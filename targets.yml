@@ -1,5 +1,9 @@
-# These are extra items that cannot normally be enchanted in an enchanting table,
-# add items to this list to be able to enchant them.
+# 适用于EcoEnchants v12.23.1 请勿倒卖，如有发现倒卖行为 会私有化这个翻译仓库
+# 作者：烧酒(3304561964) 如有更新请催更，我会在收到您的催更信息后最快速度更新出来
+# 这是汉化配置版本，适合已经安装了EcoEnchants的用户使用，内核版本请前往我的另一个仓库获取
+
+# 这些是通常无法在附魔台中附魔的额外物品.
+# 将物品添加到此列表中以便能够附魔它们.
 
 extra-enchantable-items:
   - "*elytra"
@@ -9,15 +13,14 @@ extra-enchantable-items:
   - "*carrot_on_a_stick"
   - "*player_head"
 
-# A target consists of items and a slot.
+# 目标(target)由物品和槽位组成.
 
-# The options for slot are mainhand, offhand, hands, helmet, chestplate,
-# leggings, boots, armor, any, a number from 0-40 (to specify an exact slot),
-# or a list of slots like "9, 10, 11, mainhand"
+# 槽位的选项：主手(mainhand)、副手(offhand)、双手(hands)、头盔(helmet)、胸甲(chestplate)、
+# 护腿(leggings)、鞋子(boots)、盔甲(armor)、任意(any)、0-40之间的数字（槽位），
+# 或者是槽位列表，如 "9, 10, 11, mainhand"
 
-# The slot defines when the enchantment will activate, for example if you have
-# a target with slot "mainhand", the enchantment will activate whenever the item is
-# in your mainhand.
+# 这个槽位定义了什么时候附魔会激活，比如说如果你在slot里面写着mainhand(主手)
+# 那么,只要这个物品在您的主手中时，这个附魔就会激活。
 
 targets:
   - id: pickaxe
