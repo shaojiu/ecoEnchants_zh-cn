@@ -1,0 +1,40 @@
+# 附魔的ID是.yml文件的名称，例如，razor.yml的ID为razor
+# 您可以将附魔放置在此文件夹中的任何位置，包括子文件夹中，如果您想组织附魔配置的话
+# _example.yml不会被加载。
+
+display-name: "示例" # 游戏中的附魔名称
+description: "给予&a%placeholder%%&r和&a+%damage%&r伤害加成" # 附魔的描述
+placeholder: "%level% * 20" # 在附魔描述中显示的占位符（可选，只能使用自定义占位符）
+placeholders: # 附魔描述中显示的额外占位符（可选）
+  damage: "%level% * 2" # 在此处，%damage%将是要使用的额外占位符
+type: normal # 附魔类型，来自types.yml
+
+targets: # 附魔可应用于的物品，参见targets.yml
+  - sword
+conflicts: # 与此附魔冲突的附魔
+  - sharpness
+rarity: common # 附魔的稀有度
+max-level: 4 # 附魔的最高等级
+
+tradeable: true # 是否可以从村民处获得附魔
+discoverable: true # 是否可以在箱子中自然生成附魔
+enchantable: true # 是否可以从附魔台获得附魔
+
+# 附魔的效果（即功能）
+# 参见这里：https://plugins.auxilor.io/effects/configuring-an-effect
+# 使用%level%作为附魔等级的占位符
+effects:
+  - id: damage_multiplier
+    args:
+      multiplier: "1 + 0.2 * %level%"
+    triggers:
+      - melee_attack
+  - id: damage_victim
+    args:
+      damage: "2 * %level%"
+    triggers:
+      - melee_attack
+
+# 使用附魔所需的条件，
+# 您也可以在此处使用%level%作为占位符
+conditions: [ ]
