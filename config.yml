@@ -12,7 +12,7 @@ enchanting-table:
   cap: 5 # 随时可以获得的最大附魔数量
   reduction: 2.2 # 获得每个后续附魔的概率除以这个数字，比如，第二个附魔比第一个附魔的可能性低2.2倍，第三个附魔再低2.2倍这样
 
-Options for obtaining custom enchants from villager
+#Options for obtaining custom enchants from villager
 villager:
   enabled: true # 是否可以从村民那边通过交易获得自定义附魔
   pass-through-chance: 25 # 可以选择不对这本书进行任何附魔，保持原样。
