@@ -1,5 +1,5 @@
-display-name: "End Affinity"
-description: "Increases damage dealt in the end by &a%placeholder%%"
+display-name: "末地教主"
+description: "在末地维度时,将额外增加&a%placeholder%%&r的生物伤害"
 placeholder: "20 + %level% * 10"
 type: normal
 
