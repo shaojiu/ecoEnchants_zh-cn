@@ -1,5 +1,5 @@
-display-name: "Stun"
-description: "Gives a &a%placeholder%%&r chance to stun attacked mobs for &a2&r seconds"
+display-name: "击昏"
+description: "攻击时有&a%placeholder%%&r的概率使目标获得&a1&r秒的震荡效果"
 placeholder: "2.5 + 2.5 * %level%"
 type: normal
 
