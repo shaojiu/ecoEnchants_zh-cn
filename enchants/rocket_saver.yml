@@ -1,5 +1,5 @@
-display-name: "Rocket Saver"
-description: "Gives a &a%placeholder%%&r chance to not consume fireworks when boosting"
+display-name: "节约!"
+description: "在使用烟花时,有&a%placeholder%%&r的几率不会消耗"
 placeholder: "%level% * 20"
 type: normal
 
