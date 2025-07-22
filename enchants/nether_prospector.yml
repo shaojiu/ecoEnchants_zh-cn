@@ -1,5 +1,5 @@
-display-name: "Nether Prospector"
-description: "Gives a &a%placeholder%%&r boost to ancient debris drops"
+display-name: "远古时运"
+description: "挖掘远古残骸时,将额外增加&a%placeholder%%&r的掉落概率"
 placeholder: "ceil(((1 / (%level% + 2)) + ((%level% + 1) / 2)) * 100 - 100)"
 type: normal
 
