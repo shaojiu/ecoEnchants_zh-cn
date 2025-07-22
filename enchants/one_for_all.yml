@@ -1,5 +1,5 @@
-display-name: "One for All"
-description: "Increases damage by &a%placeholder%%&r but conflicts with all other enchantments"
+display-name: "破釜沉舟"
+description: "额外增加&a%placeholder%%&r的伤害，但会与其他所有附魔排斥"
 placeholder: "500"
 type: special
 
