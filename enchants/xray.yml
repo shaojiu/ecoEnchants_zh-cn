@@ -1,5 +1,5 @@
-display-name: "Xray"
-description: "Makes ores within &a%radius%&r blocks shine through walls for &a%seconds%&r seconds"
+display-name: "透视光"
+description: "右键时,在半径为&a%radius%&r个方块内，让矿石获得&a%seconds%&r秒发光效果"
 placeholders:
   seconds: "1 + %level%"
   radius: "3 + 2 * %level%"
