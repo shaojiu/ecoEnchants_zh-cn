@@ -1,5 +1,5 @@
-display-name: "Warp Drive"
-description: "Hitting your opponent with an arrow teleports you to them"
+display-name: "曲率引擎"
+description: "用箭击中目标时会将你传送到目标身边"
 placeholder: "%level%"
 type: special
 
