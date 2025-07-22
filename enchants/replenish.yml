@@ -1,5 +1,5 @@
-display-name: "Replenish"
-description: "Crops are replanted automatically"
+display-name: "重播"
+description: "农作物将自动重新种植播种"
 type: normal
 
 targets:
