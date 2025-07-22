@@ -1,5 +1,5 @@
-display-name: "Haunting"
-description: "Dying spawns a harming cloud for &a%placeholder%&r seconds"
+display-name: "生化母体"
+description: "死亡后释放一个&a%placeholder%&r秒伤害效果云"
 placeholder: "1 + %level%"
 type: normal
 
