@@ -1,5 +1,5 @@
-display-name: "Slipstream"
-description: "Gives a &a%placeholder%%&r boost to movement speed while holding"
+display-name: "滑流"
+description: "握持将额外增加&a%placeholder%%&r的移动速度"
 placeholder: "%level% * 8"
 type: normal
 
