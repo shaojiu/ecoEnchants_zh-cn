@@ -1,5 +1,5 @@
-display-name: "Poison Ivy"
-description: "Poisons attackers for &a%seconds%&r seconds for each heart of damage dealt, up to &a%limit%&r seconds"
+display-name: "毒刺"
+description: "每受到2点的伤害，将对攻击者造成&a%seconds%&r秒(不会超过&a%limit%&r秒)的中毒效果"
 placeholders:
   seconds: "0.5 * %level%"
   limit: "4 + %level%"
