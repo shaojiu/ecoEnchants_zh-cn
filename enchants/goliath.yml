@@ -1,5 +1,5 @@
-display-name: "Goliath"
-description: "Deal &a%damage%x &rmore damage for each times your opponent has more health than you, up to &a%limit%x"
+display-name: "巨人捕手"
+description: "当目标拥有更多的生命值时,将额外造成&a%damage%x&r(上限为&a%limit%x&r)伤害"
 placeholders:
   damage: "0.5 + %level% * 0.1"
   limit: "1.6 + %level% * 0.4"
